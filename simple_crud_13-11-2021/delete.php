@@ -1,4 +1,6 @@
 <?php 
+
+
 include 'connection.php';
 if(isset($_GET['delete_id'])){
  $id = $_GET['delete_id'];
@@ -6,7 +8,7 @@ if(isset($_GET['delete_id'])){
  if($query){
   header("location:index.php");
  }else{
-  echo "<script>alert('Sorry123')</script>";
+  echo "<script>alert('Sorry1232323')</script>";
  }
 }
 
