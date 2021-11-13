@@ -6,7 +6,7 @@ if(isset($_GET['delete_id'])){
  if($query){
   header("location:index.php");
  }else{
-  echo "<script>alert('Sorry delete query not work!')</script>";
+  echo "<script>alert('Sorry ')</script>";
  }
 }
 
